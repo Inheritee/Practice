@@ -1,0 +1,144 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.head {
+	background-color: rgb(231, 82, 82);
+}
+
+.torso {
+	background-color: rgb(19, 36, 83);
+}
+
+.right_arm, .left_arm {
+	 background-color: orange;
+}
+
+.left_leg, .right_leg {
+	background-color: rgb(189, 76, 142);
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	display: flex
+}
+
+.head:hover {
+	width: 300px;
+    transition: 0.5s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+	margin:20px
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px;
+	margin: 20px;
+	transform:rotateX(200deg); 
+} 
+
+.left_arm:hover { 
+	margin-right: 10px;
+	transform:rotate(120deg)
+} 
+
+.right_arm:hover { 
+	margin-left: 10px;
+	transform:rotate(120deg) 
+} 
+
+.torso { 
+	width: 150px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px;
+	transform: scale(1.1); 
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	margin: 0 auto;
+	display: flex; 
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(40deg);
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);  
+	transform: rotate(40deg);
+}
+
+.right_leg { 
+	margin-left: 45px; 
+} 
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: rgb(253, 249, 3);  
+} 
+
+.left_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+}
+
+.left_eye:hover {
+	transform: scale(2.1);
+}
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+
+.right_eye:hover {
+	transform: scale(3.1);
+}
+
+
+
+
+
