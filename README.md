@@ -1,1 +1,1 @@
-Practice with course
+General practice
