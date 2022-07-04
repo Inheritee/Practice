@@ -1,0 +1,45 @@
+body {
+    background-image: url(backgroundimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: #aa4139;
+    text-align: center;
+    border: 5px solid rgb(255, 176, 170);
+    cursor: pointer;
+}
+
+p {
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: georgia;
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
